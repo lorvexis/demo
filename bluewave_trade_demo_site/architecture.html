@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Architecture – BlueWave Trade Demo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="A blue-themed trading UI demo. No real trading functionality." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  
+<header>
+  <div class="container navbar">
+    <div class="logo">BlueWave Trade Demo</div>
+    <nav class="nav-links">
+      <a href="index.html">Home</a><a href="assets.html">Assets</a><a href="pricing.html">Pricing</a><a href="faq.html">FAQ</a><a href="about.html">About</a><a href="contact.html">Contact</a><a href="login.html">Login</a><a href="register.html">Register</a>
+    </nav>
+  </div>
+</header>
+
+  <main>
+    <div class="container">
+      
+<section>
+  <h1 class="page-title">Architecture (concept only)</h1>
+  <p class="page-subtitle">
+    How this static design could evolve into a real trading system architecture.
+  </p>
+  <div class="card">
+    <h3>Front-end layer</h3>
+    <p>
+      This demo is implemented as simple HTML and CSS. In a real project, you could
+      port it to React, Vue, or any modern framework, keeping the same blue design
+      system and component structure.
+    </p>
+
+    <h3 style="margin-top:1rem;">Application &amp; API layer (future)</h3>
+    <p>
+      A backend could expose REST or GraphQL APIs for prices, orders, and user
+      profiles. Languages like Node.js, Python, or Java would all work here.
+    </p>
+
+    <h3 style="margin-top:1rem;">Data &amp; storage (future)</h3>
+    <p>
+      For a real trading platform, you might use a relational database (for example,
+      PostgreSQL) for users and orders and a time-series database for price history.
+      None of this exists in the current prototype.
+    </p>
+
+    <h3 style="margin-top:1rem;">Security &amp; compliance</h3>
+    <p>
+      Authentication, authorization, encryption, logging, and audit trails are
+      essential in production. They are intentionally left out here so you can focus
+      on pure UI first.
+    </p>
+  </div>
+</section>
+
+    </div>
+  </main>
+  
+<footer>
+  <div class="container footer-inner">
+    <div>© 2025 BlueWave Trade Demo. Design mock only.</div>
+    <div class="footer-links">
+      <a href="terms.html">Terms</a>
+      <a href="privacy.html">Privacy</a>
+      <a href="roadmap.html">Roadmap</a>
+      <a href="architecture.html">Architecture</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

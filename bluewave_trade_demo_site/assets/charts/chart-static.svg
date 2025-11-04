@@ -1,0 +1,22 @@
+
+<svg width="600" height="260" viewBox="0 0 600 260" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="fill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2563EB" stop-opacity="0.35" />
+      <stop offset="100%" stop-color="#DBEAFE" stop-opacity="0" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="260" fill="#F8FAFF" rx="16" />
+  <polyline fill="none" stroke="#CBD5F5" stroke-width="1"
+    points="50,40 50,220 560,220" />
+  <polyline fill="none" stroke="#E5E7EB" stroke-width="0.5" stroke-dasharray="4 4"
+    points="50,80 560,80" />
+  <polyline fill="none" stroke="#E5E7EB" stroke-width="0.5" stroke-dasharray="4 4"
+    points="50,130 560,130" />
+  <polyline fill="none" stroke="#E5E7EB" stroke-width="0.5" stroke-dasharray="4 4"
+    points="50,175 560,175" />
+  <path d="M50,200 C120,130 180,160 240,110 C300,60 360,95 420,70 C480,50 530,80 560,60"
+        fill="url(#fill)" stroke="none" />
+  <polyline fill="none" stroke="#2563EB" stroke-width="2.2"
+    points="50,200 120,130 180,160 240,110 300,60 360,95 420,70 480,50 530,80 560,60" />
+</svg>
